@@ -14,10 +14,14 @@ To make it work:
 
 2. *Declare screensot as a global function*
   in your conf.js file locate or create your onPrepare function.
-  ``onPrepare: function() {
+  ```
+  onPrepare: function() {
 
-    }``
+    }
+    ```
   inside your onPrepare, add this line:
-  `` global.screenshot = require('protractor-screenshots-on-demand').saveScreenshot;``
+  ```
+  global.screenshot = require('protractor-screenshots-on-demand').saveScreenshot;
+  ```
 
 3.
