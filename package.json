@@ -1,6 +1,6 @@
 {
   "name": "screenshot-protractor",
-  "version": "1.0",
+  "version": "1.0.0",
   "description": "Take screenshots in protractor with a simple command",
   "main": "index.js",
   "scripts": {
