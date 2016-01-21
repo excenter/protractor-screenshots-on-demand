@@ -8,11 +8,15 @@ when you're ready to take a screenshot enter
 
 To make it work:
 
-1. *[Create the folder structure you want your screenshots to export to]*
+1.
+#[Create the folder structure you want your screenshots to export to]
+
   Because I'm using it with a CI server, and don't want the png files to be stored in git, I created generated/screenshots folders, and added a .gitignore that simply contains '\*.png'
   The folder for the screenshots to export to must exist, or protractor will throw errors and fail tests.
 
-2. *Declare screensot as a global function*
+2.
+#Declare screensot as a global function
+
   in your conf.js file locate or create your onPrepare function.
   ```
   onPrepare: function() {
