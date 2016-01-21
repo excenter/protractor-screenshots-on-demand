@@ -1,6 +1,6 @@
 {
-  "name": "screenshot protractor",
-  "version": "0.1",
+  "name": "screenshot-protractor",
+  "version": "1.0",
   "description": "Take screenshots in protractor with a simple command",
   "main": "index.js",
   "scripts": {
@@ -9,8 +9,16 @@
   "keywords": [
     "protractor",
     "screenshot",
-    "screenshots"
+    "screenshots",
+    "e2e",
+    "angular",
+    "selenium"
   ],
+  "repository" :{
+    "type" : "git",
+    "url" : "https://github.com/excenter/protractor-screenshots-on-demand"
+  },
+
   "author": "Andrew Batz <andrew@batz.us>",
   "license": "MIT",
   "dependencies": {
