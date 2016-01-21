@@ -1,5 +1,5 @@
 {
-  "name": "protractor-screenshots-on-demand",
+  "name": "screenshot protractor",
   "version": "0.1",
   "description": "Take screenshots in protractor with a simple command",
   "main": "index.js",
