@@ -1,6 +1,8 @@
 Based on http://neverfriday.com/2015/08/23/take-screenshots-protractor-selenium-webdriver/
 and the incredible talent of:
 https://github.com/omouse
+Rudolf Olah via omouse@gmail.com
+
 
 This package is for running protractor tests with a selenium server.
 when you're ready to take a screenshot enter
@@ -24,7 +26,7 @@ To make it work:
   inside your onPrepare, add this line:
 
 ```
-  global.screenshot = require('protractor-screenshots-on-demand').saveScreenshot;
+  global.screenshot = require('screenshot-protractor').saveScreenshot;
 ```
 
 #3. [Advanced screenshoting]
@@ -38,5 +40,5 @@ To make it work:
   `screenshot('Generated/Screenshots/login-unfilled.png');`
 
   with
-  
+
   `screenshot(ssp+'login-unfilled.png');`
