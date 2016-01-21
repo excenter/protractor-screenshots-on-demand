@@ -1,0 +1,20 @@
+{
+  "name": "protractor-screenshots-on-demand",
+  "version": "1.0",
+  "description": "Take screenshots in protractor with a simple command",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "protractor",
+    "screenshot",
+    "screenshots"
+  ],
+  "author": "Andrwe Batz <andrew@batz.us>",
+  "license": "MIT",
+  "dependencies": {
+    "fs": "0.0.2",
+    "path": "^0.12.7"
+  }
+}
