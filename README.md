@@ -30,9 +30,13 @@ To make it work:
 #3. [Advanced screenshoting]
 
   also in my onPrepare function i've added
+
   `global.ssp='Generated/Screenshots/';`
+
   so that when I take a screenshot I can replace
+
   `screenshot('Generated/Screenshots/login-unfilled.png');`
+
   with
-  `screenshot(ssp+'login-unfilled.png');`
   
+  `screenshot(ssp+'login-unfilled.png');`
