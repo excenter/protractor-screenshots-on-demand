@@ -11,7 +11,7 @@ To make it work:
 1.
 #[Create the folder structure you want your screenshots to export to]
 
-  Because I'm using it with a CI server, and don't want the png files to be stored in git, I created generated/screenshots folders, and added a .gitignore that simply contains '\*.png'
+  Because I'm using it with a CI server, and don't want the png files to be stored in git, I created generated/screenshots folders, and added a .gitignore that simply contains`'\*.png`
   The folder for the screenshots to export to must exist, or protractor will throw errors and fail tests.
 
 2.
@@ -22,10 +22,11 @@ To make it work:
   onPrepare: function() {
 
     }
-    ```
+```
   inside your onPrepare, add this line:
-  ```
+
+```
   global.screenshot = require('protractor-screenshots-on-demand').saveScreenshot;
-  ```
+```
 
 3.
